@@ -46,6 +46,7 @@ This will start the NestJS backend, PostgreSQL database, and React frontend.
 ## Skills acquired:
 
 - REST API concepts
+- React and Typescript
 - Websockets
 - Multiplayer network gaming concepts (prediction, latency management, queue management...)
 - Interface between NestJS Object-oriented data-structure and PostgreSQL relational database via Prisma.
