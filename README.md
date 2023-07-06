@@ -4,9 +4,9 @@ Ft_transcendance is a Docker-compose deployable webgame that features social-net
 ## Project Structure
 The project is composed of the following images:
 
-- `nestjs`: The backend server built with NestJS.
-- `prisma_studio`: A visual database management tool (Prisma Studio) connected to a PostgreSQL database.
-- `react`: The frontend application built with ReactJS.
+- **nestjs**: The backend server built with NestJS.
+- **prisma_studio**: A visual database management tool (Prisma Studio) connected to a PostgreSQL database.
+- **react**: The frontend application built with ReactJS.
 
 ## Prerequisites
 To run this project, you need to have the following dependencies installed:
@@ -20,23 +20,23 @@ You also need to have access to API credentials from 42 School.
 To run the project, follow these steps:
 
 1. Clone the repository:
-```
+```fish
 git clone https://github.com/your-username/ft_transcendance.git
 cd ft_transcendance
 ```
 
 2. Create a .env file by copying the provided .env.example file:
-```
+```fish
 cp .env.example .env
 ```
 
 3. Update the environment variables in the .env file to match your configuration.
 4. Build and run the containers using Docker Compose or the Makefile:
-```
+```fish
 docker-compose up --build
 ```
 or
-```
+```fish
 make
 ```
 This will start the NestJS backend, PostgreSQL database, and React frontend.
