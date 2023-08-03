@@ -21,7 +21,7 @@ To run the project, follow these steps:
 
 1. Clone the repository:
 ```fish
-git clone https://github.com/your-username/ft_transcendance.git
+git clone https://github.com/DimiOui/ft_transcendance.git
 cd ft_transcendance
 ```
 
